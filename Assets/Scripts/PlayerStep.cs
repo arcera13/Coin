@@ -8,6 +8,7 @@ public class PlayerStep : IComparable<PlayerStep>
     public float  posX;
     public int    posZ;
 
+
     public PlayerStep(float PosX, int PosZ)
     {
         posX = PosX;

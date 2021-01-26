@@ -11,6 +11,7 @@ public class Coin : MonoBehaviour
 
     List<PlayerStep> playerSteps = new List<PlayerStep>(); 
 
+
     private void Start() {
         Player = FindObjectOfType<PlayerController>();
     }

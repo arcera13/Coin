@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+
     public void Restart() {
         reloadMenu.SetActive(false);
         SceneManager.LoadScene("level01");

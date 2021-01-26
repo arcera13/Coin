@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     private float speed = 6.0f;
     public float gravity = -9.8f;
-
     private CharacterController _charController;
     private bool gameIsEnded;
     private ObstacleController obstacle;
